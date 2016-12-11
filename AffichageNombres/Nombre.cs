@@ -118,5 +118,34 @@ namespace AffichageNombres
 
             return nombre;
         }
+
+        /// <summary>
+        /// cette methode permet de tester la divisibilité d'un nombre par 3 ,5 ,7 tout d'abord 
+        /// puis elle verifie le contenu de ce nombre 
+        /// </summary>
+        /// <param name="val">le nombre à evaluer</param>
+        /// <returns>chaine de caractere </returns>
+        /// 
+        public String DivisibilitePuisContenu(int val)
+        {
+            String Chaine = this.divisibilité(val);
+            String chaine2 = this.Contenu(val);
+
+            int n;
+            if (int.TryParse(Chaine, out n))
+            {
+                if (!chaine2.Equals(""))
+                {
+                    return chaine2;
+                }
+                else
+                {
+                    return Chaine;
+                }
+            }
+
+
+            return Chaine + chaine2;
+        }
     }
 }

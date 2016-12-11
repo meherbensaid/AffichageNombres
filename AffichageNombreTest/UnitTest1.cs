@@ -63,6 +63,21 @@ namespace AffichageNombreTest
             Assert.AreEqual(expected, C.Contenu(val));
         }
 
+        /// <summary>
+        /// Tester la divisibilité puis on on teste le contenu d'un nombre 
+        /// 51 qui est divisible par 3 et qui contient 5 donc on doit avoir comme 
+        /// resultat FooBar
+        /// </summary>
+        [TestMethod]
+        public void DivisibiliteContenu()
+        {
+            Nombre C = new Nombre();
+
+            int val = 51;
+            String expected = "FooBar";
+            Assert.AreEqual(expected, C.DivisibilitePuisContenu(val));
+        }
+
 
     }
 }
