@@ -93,5 +93,46 @@ namespace AffichageNombreTest
             Assert.AreEqual(expected, C.Contenu(val));
         }
 
+
+
+        /// <summary>
+        /// Tester la valeur 13
+        /// </summary>
+        [TestMethod]
+        public void _13_()
+        {
+            Nombre C = new Nombre();
+
+            int val = 13;
+            String expected = "Foo";
+            Assert.AreEqual(expected, C.DivisibilitePuisContenu(val));
+        }
+
+        /// <summary>
+        /// Tester la valeur 15
+        /// </summary>
+        [TestMethod]
+        public void _15_()
+        {
+            Nombre C = new Nombre();
+
+            int val = 15;
+            String expected = "FooBarBar";
+            Assert.AreEqual(expected, C.DivisibilitePuisContenu(val));
+        }
+
+        /// <summary>
+        /// Tester la valeur 33
+        /// </summary>
+        [TestMethod]
+        public void _33_()
+        {
+            Nombre C = new Nombre();
+
+            int val = 33;
+            String expected = "FooFooFoo";
+            Assert.AreEqual(expected, C.DivisibilitePuisContenu(val));
+        }
+
     }
 }
