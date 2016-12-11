@@ -78,6 +78,20 @@ namespace AffichageNombreTest
             Assert.AreEqual(expected, C.DivisibilitePuisContenu(val));
         }
 
+        /// <summary>
+        /// Tester le contenu du nombre dans l'ordre 
+        /// c'est àa dire si on a 53 on doit avoir Bar qui correspond à 5
+        /// puis Foo qui correspond à 3 
+        /// </summary>
+        [TestMethod]
+        public void ContenuDansLordre()
+        {
+            Nombre C = new Nombre();
+
+            int val = 53;
+            String expected = "BarFoo";
+            Assert.AreEqual(expected, C.Contenu(val));
+        }
 
     }
 }
