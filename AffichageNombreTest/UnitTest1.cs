@@ -50,6 +50,19 @@ namespace AffichageNombreTest
             Assert.AreEqual(expected, C.divisibilité(val));
         }
 
+        /// <summary>
+        /// Tester le contenu de 51 qui contient 5 donc on doit avoir commme resultat Bar 
+        /// </summary>
+        [TestMethod]
+        public void contenu()
+        {
+            Nombre C = new Nombre();
+
+            int val = 51;
+            String expected = "Bar";
+            Assert.AreEqual(expected, C.Contenu(val));
+        }
+
 
     }
 }

@@ -92,5 +92,31 @@ namespace AffichageNombres
             }
             return nombre;
         }
+
+
+        /// <summary>
+        /// methode qui retorune la transformation d'un nombre : si le chiffre contient l'une des valeur suivantes:
+        /// 3,5,7 donc on affiche respectivement Foo,Bar,Qix.
+        /// </summary>
+        /// <param name="val">le nombre à evaluer</param>
+        /// <returns>chaine de caractére</returns>
+        public String Contenu(int val)
+        {
+
+            this.nombre = "";
+            String Nbr = val + "";
+
+            char[] T = Nbr.ToCharArray();
+
+            foreach (var item in T)
+            {
+
+                if (item == '3') { nombre += this.trois; }
+                if (item == '5') { nombre += this.cinq; }
+                if (item == '7') { nombre += this.sept; }
+            }
+
+            return nombre;
+        }
     }
 }
