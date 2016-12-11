@@ -147,5 +147,19 @@ namespace AffichageNombres
 
             return Chaine + chaine2;
         }
+
+        /// <summary>
+        /// methode qui permet d'afficher les 100 premier nombre de 
+        /// 1 à 100
+        /// </summary>
+        public void Affichage(int val)
+        {
+            int i = 1;
+            while (i < val)
+            {
+                Console.WriteLine(DivisibilitePuisContenu(i));
+                i++;
+            }
+        }
     }
 }
