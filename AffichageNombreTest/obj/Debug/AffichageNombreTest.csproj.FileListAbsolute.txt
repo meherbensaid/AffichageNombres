@@ -1,0 +1,9 @@
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\bin\Debug\AffichageNombreTest.dll
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\bin\Debug\AffichageNombreTest.pdb
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\bin\Debug\AffichageNombres.exe
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\bin\Debug\AffichageNombres.pdb
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\obj\Debug\AffichageNombreTest.csprojResolveAssemblyReference.cache
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\obj\Debug\AffichageNombreTest.dll
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombreTest\obj\Debug\AffichageNombreTest.pdb

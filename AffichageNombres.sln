@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffichageNombres", "AffichageNombres\AffichageNombres.csproj", "{C94EFB8B-836E-43AF-91A2-A5FE5A3B0958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AffichageNombreTest", "AffichageNombreTest\AffichageNombreTest.csproj", "{9B3D8846-9C36-41F4-B8D2-1B5E9BEA9241}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C94EFB8B-836E-43AF-91A2-A5FE5A3B0958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C94EFB8B-836E-43AF-91A2-A5FE5A3B0958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C94EFB8B-836E-43AF-91A2-A5FE5A3B0958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3D8846-9C36-41F4-B8D2-1B5E9BEA9241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3D8846-9C36-41F4-B8D2-1B5E9BEA9241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3D8846-9C36-41F4-B8D2-1B5E9BEA9241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3D8846-9C36-41F4-B8D2-1B5E9BEA9241}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

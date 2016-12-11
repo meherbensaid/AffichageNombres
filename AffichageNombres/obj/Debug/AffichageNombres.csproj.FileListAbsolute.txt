@@ -1,1 +1,6 @@
 c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombres\bin\Debug\AffichageNombres.exe.config
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombres\bin\Debug\AffichageNombres.exe
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombres\bin\Debug\AffichageNombres.pdb
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombres\obj\Debug\AffichageNombres.csprojResolveAssemblyReference.cache
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombres\obj\Debug\AffichageNombres.exe
+c:\users\meher\documents\visual studio 2015\Projects\AffichageNombres\AffichageNombres\obj\Debug\AffichageNombres.pdb
